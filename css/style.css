@@ -1,0 +1,168 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/* Header */
+/*Logo*/
+.top-navigate-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.top-logo-word {
+  color: #2e2f42;
+}
+/*Navigation*/
+.navigation-link {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #404bbf;
+}
+
+/*Contact*/
+address {
+  font-style: normal;
+}
+.contact-list-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-list-link:hover,
+.contact-list-link:focus {
+  color: #404bbf;
+}
+
+/* Main*/
+/* First section Article*/
+.article {
+  background-color: #2e2f42;
+}
+.article-title {
+  color: #ffffff;
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.article-interactive {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.article-interactive:hover,
+.article-interactive:focus {
+  background-color: #404bbf;
+}
+
+/*Second section Benefits*/
+.benefits-list-title {
+  font-size: 20px;
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.benefits-list-text {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Third section Team*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  text-transform: capitalize;
+  font-size: 36px;
+  color: #2e2f42;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.team-cards-item {
+  background-color: #ffffff;
+}
+.team-cards-name {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.team-cards-text {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/* Forth section Portfolio*/
+.portfolio-title {
+  text-transform: capitalize;
+  font-size: 36px;
+  color: #2e2f42;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.portfolio-cards-name {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-cards-text {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*Footer*/
+.bottom {
+  background-color: #2e2f42;
+}
+.bottom-logo {
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.bottom-logo-word {
+  color: #f4f4fd;
+}
+
+.bottom-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
