@@ -133,7 +133,7 @@ img {
   border-radius: 4px;
   border: none;
   min-width: 169px;
-  padding: 16px 32px;
+  padding: 16px 0;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   margin-left: auto;
   margin-right: auto;
@@ -206,7 +206,10 @@ img {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.team-cards-name {
+.team-item-person {
+  padding: 32px 0;
+}
+.team-person-name {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -214,14 +217,12 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 8px;
-  margin-top: 32px;
 }
-.team-cards-text {
+.team-person-text {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 32px;
 }
 /* Forth section Portfolio*/
 .portfolio {
@@ -241,12 +242,13 @@ img {
 .portfolio-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-cards-item {
-  flex-basis: calc((100%-48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
-.portfolio-cards-name {
+.portfolio-app-name {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -254,16 +256,17 @@ img {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-left: 16px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
-.portfolio-cards-text {
+.portfolio-app-text {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding-bottom: 32px;
   padding-left: 16px;
 }
-.portfolio-cards-border {
+.portfolio-cards-app {
+  padding: 32px 16px;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
@@ -272,8 +275,6 @@ img {
 /*Footer*/
 .bottom {
   background-color: #2e2f42;
-}
-.bottom-container {
   padding: 100px 0;
 }
 
