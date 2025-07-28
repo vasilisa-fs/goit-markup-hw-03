@@ -254,16 +254,12 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-left: 16px;
   margin-bottom: 8px;
 }
 .portfolio-app-text {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
-  padding-left: 16px;
 }
 .portfolio-cards-app {
   padding: 32px 16px;
